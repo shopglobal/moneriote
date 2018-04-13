@@ -3,22 +3,22 @@
 
 # This is the directory where files are written to.
 # If you run as a cronjob, you have to use the full path
-DIR=/home/main12/files_moneriote
+DIR=/~/moneriote
 
 # This is the path for your monerod binary.
-monerod=monerod
+monerod=myntd
 
 # This is the ip of your local daemon. If you're not running an open node, 127.0.0.1 is fine.
-daemon=192.168.1.2
+daemon=127.0.0.1
 
 #Where your going to dump the file that will be published
-html_dir=/var/www/mine.moneroworld.com/public_html/pages/
+html_dir=/var/www/miner.coinmine.network/
 
 # Bound rpc port
-bport=18089
+bport=24091
 
 #Port to sniff for
-port=18089
+port=24091
 
 echo $monerod
 echo $daemon
@@ -95,6 +95,5 @@ sudo cp nodes.html $html_dir/
 
 # http://stackoverflow.com/questions/16753876/javascript-button-to-pick-random-item-from-array
 # http://www.javascriptkit.com/javatutors/randomorder.shtml
-
 
 
